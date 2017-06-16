@@ -24,7 +24,7 @@ const KeyboardAwareListView = React.createClass({
     return (
       <ListView
         ref='_rnkasv_keyboardView'
-        keyboardDismissMode='none'
+        keyboardDismissMode='interactive'
         contentInset={{bottom: this.state.keyboardSpace}}
         showsVerticalScrollIndicator={true}
         scrollEventThrottle={0}

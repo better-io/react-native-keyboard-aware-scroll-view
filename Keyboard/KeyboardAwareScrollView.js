@@ -25,11 +25,12 @@ const KeyboardAwareScrollView = React.createClass({
   // },
 
   render: function () {
-    console.log("HEY a scroll1313 view!!!!");
+    console.log("HEY a scroll1414 view!!!!");
     return (
       <ScrollView
         ref='_rnkasv_keyboardView'
         keyboardDismissMode='none'
+        keyboardShouldPersistTaps="handled"
         contentInset={{bottom: this.state.keyboardSpace}}
         showsVerticalScrollIndicator={true}
         scrollEventThrottle={0}
